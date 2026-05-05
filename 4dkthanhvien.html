@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký thành viên</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <!-- HEADER -->
+<header>
+    <h1>Showroom Ô Tô</h1>
+    <nav>
+        <a href="1trangchu.html">Trang chủ</a>
+        <a href="2sanpham.html">Sản phẩm</a>
+        <a href="5gioithieu.html">Giới thiệu</a>
+        <a href="4dkthanhvien.html">Đăng ký</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <h2>Đăng ký thành viên</h2>
+
+    <!-- FORM TRONG BẢNG -->
+    <form>
+        <table border="1" cellpadding="10" width="100%">
+            
+            <tr>
+                <td>Họ và tên</td>
+                <td><input type="text" placeholder="Nhập tên..." required></td>
+            </tr>
+
+            <tr>
+                <td>Email</td>
+                <td><input type="email" placeholder="Nhập email..." required></td>
+            </tr>
+
+            <tr>
+                <td>Số điện thoại</td>
+                <td><input type="text" placeholder="Nhập số điện thoại"></td>
+            </tr>
+
+            <tr>
+                <td>Mật khẩu</td>
+                <td><input type="password" required></td>
+            </tr>
+
+            <tr>
+                <td>Giới tính</td>
+                <td>
+                    <input type="radio" name="gender"> Nam
+                    <input type="radio" name="gender"> Nữ
+                </td>
+            </tr>
+
+            <tr>
+                <td>Sở thích</td>
+                <td>
+                    <input type="checkbox"> Xe thể thao
+                    <input type="checkbox"> SUV
+                    <input type="checkbox"> Xe điện
+                </td>
+            </tr>
+
+            <tr>
+                <td>Loại xe yêu thích</td>
+                <td>
+                    <select>
+                        <option>Sedan</option>
+                        <option>SUV</option>
+                        <option>Hatchback</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Ghi chú</td>
+                <td><textarea rows="4"></textarea></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <button type="submit">Đăng ký</button>
+                    <button type="reset">Nhập lại</button>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <p>© Showroom ô tô</p>
+</footer>
+    
+</body>
+</html>
